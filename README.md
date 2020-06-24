@@ -1,27 +1,8 @@
-# DistanciaEmMusica
+# Distância em música
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+Um sistema para medir o tempo de locomoção entre dois pontos, porém, ao invés de informar em minutos/horas, informar em músicas de um determinado artista. “Dois beethovens” de distância seria muito maior que “cinco justin biebers”.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+O usuário acessa/instala e seus dados ficam salvo
+É informado a origem e destino, que deverá exibir o resultado da busca de cada campo usando a API do Google Maps
+É escolhida então uma banda (obtida através de outra API)
+Apresenta-se então ao usuário a quantas músicas de distância, do seu artista favorito, ele está do seu destino
